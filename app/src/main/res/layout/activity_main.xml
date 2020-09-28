@@ -90,14 +90,16 @@
                     android:textColor="@color/colorwhite"
                     android:paddingBottom="10dp"
                     android:layout_marginBottom="5dp"/>
-                <Button
-                    android:id="@+id/btnCaptura"
-                    android:layout_width="match_parent"
-                    android:layout_height="wrap_content"
-                    android:text="Captura Foto"
-                    android:background="@color/colorBlack"
-                    android:textColor="@color/colorwhite"
-                    android:paddingBottom="10dp"/>
+
+            <Button
+                android:id="@+id/btnCaptura"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@color/colorBlack"
+                android:drawableStart="@android:drawable/ic_menu_camera"
+                android:paddingBottom="10dp"
+                android:text="Captura Foto"
+                android:textColor="@color/colorwhite" />
 
                 <ImageView
                     android:id="@+id/Imvfoto"
